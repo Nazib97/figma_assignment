@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap');
+:root{
+	--theme color: #56548C;
+    --green:  #21B573;
+    --dark: #282531;
+    --shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+body{
+	font-size: 16px;
+	font-family: 'poppins', sans-serif;
+
+}
+
+.btnCustom{
+	padding: 8px 28px !important;
+	font-family: 'Roboto', sans-serif;
+	background: var(--green);
+    border-radius: 33px;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    color: #FFFFFF !important ;
+    border: 2px solid var(--green);
+}
+
+.btnCustom:hover{
+	border: 2px solid var(--green);
+	background-color: transparent;
+	color: var(--green) !important ;
+}
+
+.heading{
+	text-align: center;
+	padding: 50px 0;
+
+}
+.heading h2{
+	font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+
+
+header{
+	background: #F0FFF0;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 8px 28px !important;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	border: 2px solid var(--green);
+}
+.bannerContent{
+	max-width: 410px;
+}
+.bannerContent h6{
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+}
+.bannerContent h1{
+	font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+
+}
+.bannerContent p{
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+.bannerContent h1 span{
+	color: var(--green);
+}
+
+.bannerImage{ 
+   padding: 50px 0;
+}
+.bannerImage img{}
+
+
+
+/*** featureSections **/
+
+.featureSections{
+	padding: 40px;
+}
+.feature{
+	background: #F8FFFB;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s;
+    padding: 50px 30px;
+
+}
+.feature img{
+	height: 85px;
+}
+.feature h3{
+	font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--dark);
+    margin: 15px 0 0;
+}
+.feature span{
+	font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #585859;
+
+}
+.feature:hover{
+	background-color: #fff;
+	box-shadow: var(--shadow);
+}
+
+/***courseSection***/
+
+.courseSection{}
+.course{
+	box-shadow: var(--shadow);
+	padding: 24px 20px 30px ;
+	border-radius: 18px;
+	transition: all 0.3s;
+}
+.course:hover{
+	box-shadow: 0 0 0 transparent;
+	
+}
+.course img{}
+.course h3{
+	font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--dark);
+    margin: 15px 0 6px;
+}
+.course span{
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    display: block;
+    margin-bottom: 10px;
+}
+.course .btnCustom{}
+.course ul{
+	margin-top: 20px;
+}
+.course ul li{
+	color: #585859;
+	font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+.course ul li i{
+	margin-right: 10px;
+}
+.course ul li span{
+	
+    color: #585859;
+	font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+ 
+
+/***testimonialSection***/
+
+.testimonialSection{
+	padding-bottom: 60px;
+}
+.customerImg{
+	text-align: center;
+}
+.customerImg img{
+	width: 120px;
+    height: 120px;
+}
+.feedback{}
+.feedback p{
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--dark);
+}
+
+
+/***footerSection***/
+footer{
+
+	background: var(--dark);
+	padding: 50px 0 30px;
+}
+.widget{}
+.widget p{
+	color: white;
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.widget strong{
+	color: white;
+	font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+.widget ul{}
+.widget ul li{}
+.widget ul li a{
+	color: white;
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.widget ul li a:hover{}
+.copyright{
+	text-align: center;
+	margin-top: 70px;
+}
+.copyright p{
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #CDCDCD;
+    margin-bottom: 0;
+
+
+}
+.copyright p a{
+	 color: #CDCDCD;
+	 text-decoration: none;
+	 font-weight: 700;
+}
+.copyright p a:hover{
+	color: white;
+
+}

@@ -1,0 +1,79 @@
+@media(max-width: 1199px){
+.feature h3{
+	font-size: 20px;
+}
+.course h3{
+	font-size: 20px;
+}
+.course ul li span{
+	font-size: 14px;
+}
+.course ul li i{
+	margin-right: 6px;
+}
+.course{
+	padding: 20px 14px 20px;
+}
+}
+@media(max-width: 991px){
+	.bannerContent h1{
+		font-size: 38px;
+		line-height: 45px;
+	}
+	.bannerContent p{
+		font-size: 15px;
+		line-height: 23px;
+	}
+	.feature h3{
+		font-size: 18px;
+		margin-top: 10px;
+		line-height: 24px;
+	}
+	.feature{
+		padding: 25px 6px;
+	}
+	.feature span{
+		font-size: 14px;
+	}
+	.feature img{
+		height: 60px;
+	}
+	.heading{
+		padding: 30px 0;
+	}
+	.course{
+		padding: 20px 10px 20px;
+	}
+	.course h3{
+		margin: 10px 0 0;
+		font-size: 18px;
+	}
+	.course span{
+		font-size: 13px;
+	}
+	.btnCustom{
+		padding: 6px 20px;
+	}
+	.course ul li{
+        font-size: 14px;
+        margin-bottom: 5px;
+	}
+	.widget ul li a{
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.widget p{
+		text-align: center;
+	}
+	.copyright{
+		margin-top: 40px;
+	}
+
+	
+}
+@media(max-width: 767px){
+	
+}
+@media(max-width: 575px){
+	
+}
